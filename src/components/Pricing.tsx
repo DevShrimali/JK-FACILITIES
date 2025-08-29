@@ -5,7 +5,7 @@ const Pricing = () => {
   const packages = [
     {
       name: 'Basic Clean',
-      price: '$99',
+     
       description: 'Perfect for regular maintenance cleaning',
       features: [
         'Kitchen cleaning',
@@ -18,7 +18,7 @@ const Pricing = () => {
     },
     {
       name: 'Deep Clean',
-      price: '$199',
+      
       description: 'Comprehensive cleaning for thorough results',
       features: [
         'Everything in Basic Clean',
@@ -32,7 +32,7 @@ const Pricing = () => {
     },
     {
       name: 'Premium Service',
-      price: '$299',
+    
       description: 'Complete cleaning solution with extras',
       features: [
         'Everything in Deep Clean',
@@ -78,7 +78,7 @@ const Pricing = () => {
 
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">{pkg.name}</h3>
-                  <div className="text-4xl font-bold mb-2" style={{color: '#0f5382'}}>{pkg.price}</div>
+                  
                   <p className="text-gray-600 text-sm">{pkg.description}</p>
                 </div>
 
